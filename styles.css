@@ -1,0 +1,223 @@
+/*************TAG STYLES**************/
+
+body{
+  margin: 0;
+  background-color: #2f2f2f;
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-attachment:scroll;
+  background-position-y: 320px;
+  font-family: Nunito sans, sans-serif;
+  color: white;
+  letter-spacing: 0.7px;
+}
+a{
+  text-decoration: none;
+  color: #3E6BC0;
+}
+table{
+  border-spacing: 0;
+}
+
+
+
+
+
+/*************CLASS STYLES*************/
+
+
+
+/*NAVBAR*/
+.navbar{
+  display: flex;
+  width: 100%;
+}
+.links{
+  width: 100%;
+  height: fit-content;
+  text-align: right;
+  margin:auto 180px auto auto;
+  font-weight: bold;
+}
+.toplinks{
+  color: #3E6BC0;
+  font-size: 28px;
+  margin-left: 40px;
+}
+.krad{
+  height: 72px;
+  width: 64px;
+  margin: 30px 30px 30px 100px;
+}
+
+
+/*IMAGE SECTION*/
+.loadpg{
+  display: flex;
+  margin-top: 100px;
+  height: 560px;
+}
+.text{
+  width: 100%;
+  height: fit-content;
+  position: relative;
+  top: 200px;
+  margin-left:  175px;
+}
+.main_image{
+  text-align: right;
+  margin-right: 120px;
+}
+.maintxt{
+  font-size: 64px;
+  font-weight:700;
+}
+.pfp{
+  height: 610px;
+}
+#name{
+  color: #3E6BC0;
+}
+
+/*ABOUT SECTION*/
+.abtsection{
+  margin-top: 180px;
+  text-align: center;
+  width: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+.about{
+  font-size: 48px;
+  font-weight: bold;
+  color: #3E6BC0;
+}
+.description{
+  margin-top: 25px;
+  font-size: 28px;
+  font-weight: 450;
+  line-height: 46px;
+}
+
+/*SKILLS SECTION*/
+.skillsection{
+  height: fit-content;
+  width: fit-content;
+  display: flex;
+  margin-top: 70px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+}
+.skills{
+  width: 460px;
+  height: 600px;
+  left: 0px;
+  top: 0px;
+  background: #2F2F2F;
+  box-shadow: 0px 0px 80px rgba(0, 0, 0, 0.24);
+  border-radius: 50px;
+  margin: 0;
+}
+.softwares{
+  width: 460px;
+  height: 600px;
+  left: 0px;
+  top: 0px;
+  background: #2F2F2F;
+  box-shadow: 0px 0px 80px rgba(0, 0, 0, 0.24);
+  border-radius: 50px;
+  margin: 0 55px 0 55px ;
+}
+.hobbies{
+  width: 460px;
+  height: 600px;
+  left: 0px;
+  top: 0px;
+  background: #2F2F2F;
+  box-shadow: 0px 0px 80px rgba(0, 0, 0, 0.24);
+  border-radius: 50px;
+  margin: 0;
+}
+.table1{
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.skilltable{
+  width: 350px;
+  height: 500px;
+  margin: auto;
+  
+}
+.circbg{
+  height: 83px;
+  width: 83px;
+  border-radius: 100%;
+  background-color: #3E6BC0;
+  text-align: center;
+  margin: auto;
+}
+.skillicons{
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  fill: white;
+  height: 40px;  
+}
+#head1{
+  font-size: 32px;
+  font-weight: bold;
+  text-align: center;
+  height: 65px;
+  color: #3E6BC0;
+}
+.desctxt{
+  margin: 15px 0 15px 25px;
+  font-size: 24px;
+  font-weight: bold;
+}
+#ps{
+  height: 35px;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  fill: white;
+  height: 30px;
+}
+#ai{
+  height: 35px;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  fill: white;
+  height: 28px;
+}
+
+
+
+
+
+/*************CUSTOM SCROLLBAR*************/
+
+
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+  
+  
+::-webkit-scrollbar-track {
+  background: rgba(54, 5, 54, 0);
+}
+  
+  
+::-webkit-scrollbar-thumb {
+  background: rgba(62, 107, 192, 0.3);
+  border-radius: 5px;
+}
+  
+  
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
